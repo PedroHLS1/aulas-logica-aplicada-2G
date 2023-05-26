@@ -14,6 +14,25 @@ public class Main {
         //definir comportamento do objeto
         qualquer.falar();
         adao.falar(" baixo");
+        //criar mais objetos
+        //declarar objeto
+        Pessoa rainha;
+        // instanciar objetos
+        rainha = new Pessoa();
+        // definir formato do objeto
+        rainha.nome = "";
+        rainha.sobrenome = "";
+        //defiir com´portamento
+        rainha.falar();
+        rainha.falar("alto");
+        System.out.println(rainha.falar("alto", "grave"));
+
+
+        Animal cao = new Animal();
+        cao.nome = "Pluto";
+        cao.comer();
+
+        rainha.comer();
 
 
     }
