@@ -3,7 +3,7 @@ public class Main {
         // aula introdutória de orientação à objetos
         //criar objetos
         Pessoa adao = new Pessoa();
-        //declaação de objetos
+        //declaração de objetos
         Pessoa qualquer;
         //instanciação do obtjeto
         qualquer = new Pessoa();
